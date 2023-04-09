@@ -1,0 +1,159 @@
+body{
+   background-color:#9acd32;
+}
+#a{
+   
+   height:600px;
+   width:30%;
+   background-color:#9acd32;
+   margin-left:600px;
+   margin-top:150px;
+}
+
+#b{
+   
+   height:497px;
+   width:77%;
+   transform:translateY(50px);
+   margin-left:50px;
+   background-color:#87ceeb;
+}
+
+#c{
+   
+   width:90%;
+   height:100px;
+   margin-left:21px;
+  transform:translateY(20px);
+}
+
+#d div{
+   height:50px;
+   width:81px;
+   margin-top:40px;
+   margin-left:20px;
+   padding-top:20px;
+}
+
+#e div{
+   height:50px;
+   width:81px;
+   margin-top:18px;
+   margin-left:20px;
+   padding-top:20px;
+}
+#f div{
+   height:50px;
+   width:81px;
+   margin-top:18px;
+   margin-left:20px;
+   padding-top:20px;
+}
+#g div{
+   height:50px;
+   width:81px;
+   margin-top:18px;
+   margin-left:20px;
+   padding-top:20px;
+}
+
+#d{ 
+   display:flex;
+}
+
+#e{ 
+   display:flex;
+}
+
+#g{ 
+   display:flex;
+}
+
+#f{ 
+   display:flex;
+}
+.aa{
+    background-color:#C0C0C0;
+    font-size:25px;
+    text-align:center;
+    
+}
+.bb{
+    background-color:#C0C0C0;
+     font-size:25px;
+    text-align:center;
+    
+}
+.cc{
+    background-color:#C0C0C0;
+     font-size:25px;
+    text-align:center;
+}
+.jj{
+    background-color:#C0C0C0;
+     font-size:25px;
+    text-align:center;
+}
+.ee{
+    background-color:#C0C0C0;
+     font-size:25px;
+    text-align:center;
+}
+.ff{
+    background-color:#C0C0C0;
+     font-size:25px;
+    text-align:center;
+}
+.gg{
+    background-color:#C0C0C0;
+     font-size:25px;
+    text-align:center;
+}
+.ii{
+    background-color:#C0C0C0;
+     font-size:25px;
+    text-align:center;
+}
+.kk{
+    background-color:#C0C0C0;
+     font-size:25px;
+    text-align:center;
+}
+.nn{
+    background-color:#C0C0C0;
+     font-size:25px;
+    text-align:center;
+}
+.oo{
+    background-color:#C0C0C0;
+     font-size:25px;
+    text-align:center;
+}
+.mm{
+    background-color:#ff69b4;
+     font-size:25px;
+    text-align:center;
+}
+.dd{
+    background-color:#ffff00 ;
+     font-size:25px;
+    text-align:center;
+}
+.hh{
+    background-color:#ffff00 ;
+     font-size:25px;
+    text-align:center;
+}
+.ll{
+    background-color:#ffff00 ;
+     font-size:25px;
+    text-align:center;
+}
+.pp{
+    background-color:#ffff00 ;
+     font-size:25px;
+    text-align:center;
+}
+#c{
+    background-color:#fdf5e6 ;
+}

@@ -1,0 +1,308 @@
+#b{
+  height:354px;
+  width:1198px;
+  border:1px solid black;
+  margin-left:100px;
+  margin-top:200px; 
+  background-color:#C0C0C0;
+  border-radius:5px;
+}
+
+.c{
+   height:350px;
+   width:317px;
+   border:1px solid black;
+   margin-left:90px;
+   margin-top:200px;
+   background-color:#C0C0C0;
+   border-radius:5px;
+}
+
+#a{
+   display:flex;
+   font-size:20px;
+   text-align:center;
+   
+}
+.d{
+   display:flex;
+}
+.d div{
+   height:20px;
+   width:20px;
+   border:1px solid black;
+   margin-left:20px;
+   margin-top:15px;
+   border-radius:5px;
+   padding:18px;
+   background-color:white;
+}
+.e{
+   display:flex;
+}
+.e div{
+   height:20px;
+   width:20px;
+   border:1px solid black;
+   margin-left:20px;
+   margin-top:10px;
+   border-radius:5px;
+   padding:17px;
+   background-color:white;
+}
+.g{
+   display:flex;
+}
+.g div{
+   height:20px;
+   width:20px;
+   border:1px solid black;
+   margin-left:20px;
+   margin-top:10px;
+   border-radius:5px;
+   padding:17px;
+   background-color:white;
+}
+.f{
+   display:flex;
+}
+.f div{
+   height:20px;
+   width:20px;
+   border:1px solid black;
+   margin-left:20px;
+   margin-top:10px;
+   border-radius:5px;
+   padding:17px;
+   background-color:white;
+}
+.h{
+   display:flex;
+}
+.h div{
+   height:20px;
+   width:20px;
+   border:1px solid black;
+   margin-left:20px;
+   margin-top:10px;
+   border-radius:5px;
+   padding:16px;
+   background-color:white;
+}
+#i{
+   width:103px;
+}
+#j{
+   width:75px;
+}
+
+#k{
+   width:75px;
+}
+#l{
+   width:115px;
+}
+#m{
+  width:110px;
+}
+#n{
+  width:155px;
+}
+#o{
+  width:148px;
+}
+#p{
+  width:85px;
+}
+#q{
+  width:390px;
+}
+#r div{
+   height:20px;
+   width:20px;
+   border:1px solid black;
+   margin-left:20px;
+   margin-top:12px;
+   padding:16px;
+   border-radius:7px;
+   background-color:white;
+}
+#s div{
+  height:20px;
+   width:20px;
+   border:1px solid black;
+   margin-left:20px;
+   margin-top:11px;
+   padding:16px;
+    border-radius:7px;
+    background-color:white;
+}
+#aa div{
+     height:20px;
+   width:20px;
+   border:1px solid black;
+   margin-left:20px;
+   margin-top:11px;
+   padding:16px;
+    border-radius:7px;
+    background-color:white;
+    
+    }
+    #bb div{
+     height:90px;
+   width:20px;
+   border:1px solid black;
+   margin-left:20px;
+   margin-top:11px;
+   padding:16px;
+    border-radius:7px;
+    background-color:white;
+    
+    }
+    
+#t div{
+   height:20px;
+   width:20px;
+   border:1px solid black;
+   margin-left:20px;
+   margin-top:11px;
+   padding:20px;
+    border-radius:7px;
+    background-color:white;
+}
+.u div{
+   height:20px;
+   width:20px;
+   border:1px solid black;
+   margin-left:20px;
+   margin-top:11px;
+   padding:20px;
+    border-radius:7px;
+    background-color:white;
+}
+#v div{
+   height:20px;
+   width:20px;
+   border:1px solid black;
+   margin-left:20px;
+   margin-top:11px;
+   padding:20px;
+    border-radius:7px;
+    background-color:white;
+}
+#r,#s,#t,.u,#v{
+   display:flex;
+}
+#box1{
+   padding:-90px;
+}
+#nandu{
+    background-color:#808080 ;
+}
+#nandu1{
+    background-color:#808080 ;
+}
+#nandu2{
+    background-color:#808080 ;
+}
+#nandu3{
+    background-color:#808080 ;
+}
+#nandu4{
+    background-color:#808080 ;
+}
+#nandu5{
+    background-color:#808080 ;
+}
+#nandu6{
+    background-color:#808080 ;
+}
+#nandu7{
+    background-color:#808080 ;
+}
+#box3{
+    padding-right:82px;
+    
+}
+#aa{
+  display:flex;
+}
+#nand{
+   display:flex;
+}
+#nand1{
+   display:flex;
+}
+#s1 div{
+     height:20px;
+   width:20px;
+   border:1px solid black;
+   margin-left:20px;
+   margin-top:11px;
+   padding:16px;
+    border-radius:7px;
+    background-color:white;
+    
+    }
+
+    #bb1 div{
+    height:82px;
+   width:20px;
+   border:1px solid black;
+   margin-left:20px;
+   margin-top:11px;
+   padding:17px;
+    border-radius:7px;
+    background-color:white;
+    
+    }
+#s1{
+  display:flex;
+}
+#aa1{
+   display:flex;
+}
+
+#ab div{
+     height:20px;
+   width:90px;
+   border:1px solid black;
+   margin-left:20px;
+   margin-top:11px;
+   padding:16px;
+    border-radius:7px;
+    background-color:white;
+    
+    
+    }
+    .an{
+       height:20px;
+       width:94px;
+       border:1px solid black;
+       margin-left:20px;
+       margin-top:11px;
+       padding:16px;border-radius:7px;background-color:white;
+    }
+    .an1{
+       height:20px;
+       width:20px;
+       border:1px solid black;
+       margin-left:20px;
+       margin-top:11px;
+       padding:16px;border-radius:7px;background-color:white;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
