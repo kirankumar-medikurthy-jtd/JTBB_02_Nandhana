@@ -1,0 +1,123 @@
+body{
+	background-color : #87ceeb;
+	
+}#EntireLayout {
+  	display : flex;
+  	width:100%;
+  	margin:0 auto;
+  	margin-top:150px;
+  	margin-left:200px;
+}
+
+.box1{
+  	padding:9px 60px 20px 5px;
+  	background-color : black;
+  	margin : 25px 15px;
+  	border-radius:7px;
+}
+.spacingbox {
+  	width : 0%;
+  	height : 100%;
+}
+.name, .emailaddress, .phone, .subject, .message{
+  	margin : 2% 5%;
+}
+.name input, .emailaddress input, .phone input, .subject input{
+  	padding:9px 10px;
+  	width:600px;
+  	background-color : black;
+  	border : none;
+  	color : white;
+  	font-size : 20px;
+  	margin :  20px 0px;
+  	border-bottom : 1px solid skyblue;
+}
+.message label {
+  	font-size : 20px;
+  	color : skyblue;
+}
+
+#message{
+	width: 100%
+}
+
+.message textarea{
+  	font-size : 12px;
+  	background-color : black;
+  	color : white;
+  	border : none;
+  	border-bottom : 1px solid skyblue;
+}
+.sendbtn {
+  	padding:20px 280px;
+  	margin : 5px 32px;
+  	background-color : #87ceeb;
+  	color : white;
+  	border : none;
+  	border-radius : 5px;
+}
+.box3{
+   	padding:0px 10px 0px 1px;
+   	background-color:black;
+   	margin-top:27px;
+   	display:flex;
+   	border-radius:7px;
+}
+.box4{
+   	padding:2px 10px 1px 0px;
+   	background-color:black;
+   	margin-top:13px;
+   	color:#87ceeb;
+   	border-radius:7px;
+}
+h1{ 
+  	margin-top:10px;
+  	text-align:center;
+  	font-size:80px;
+  
+}
+.text, .email, .number, .sub, .msg{
+  	margin : 2% 5%;
+}
+.text input, .email input, .number input, .sub input{
+  	padding:5px 5px;
+	background-color : black;
+	border : none;
+	color : white;
+	font-size : 20px;
+	margin :  11px 00px;
+	border-bottom : 1px solid skyblue;
+}
+.msg label {
+        font-size : 20px;
+  	color : #87ceeb;
+}
+#mesage{
+	width:100%;
+	margin-left:10px;
+}
+
+.msg textarea{
+  	font-size : 12px;
+  	background-color : black;
+  	color : white;
+  	border : none;
+  	border-bottom : 1px solid skyblue;
+  	margin-left:20px;
+  	margin-top:40px;
+}
+.btn {
+  	padding:20px 120px;
+  	margin : 5% 26%;
+  	background-color : #87ceeb;
+  	color : white;
+  	border : none;
+  	border-radius : 5px;
+ 
+  
+}
+.div1 {
+   	margin-left:10px;
+   	width: 50%
+}
+

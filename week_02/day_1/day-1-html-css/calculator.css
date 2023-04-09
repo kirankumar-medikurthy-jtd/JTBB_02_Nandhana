@@ -1,0 +1,51 @@
+.green{
+	background-color:#98fb98;
+	margin-top:200px;
+	
+}
+
+.blue{
+	background-color:skyblue;
+	padding:0px  20px 30px;
+	border:1px solid skyblue;
+	width:20%;
+	
+}
+
+.output{
+        padding:5px 2px 70px;
+	background-color:#fafad2 ;
+	margin: 25px 12px 0px 16px;
+	
+}
+
+.box{
+	display:flex;
+	
+}
+
+.box div{
+	padding:30px 33px;
+	margin-top:25px;
+	margin-left:15px;
+}
+
+.yellow{
+	background-color:yellow;
+}
+
+.red{
+	background-color:red;
+}
+
+.white{
+	background-color:white;
+}
+
+#space{
+	padding : 30px 34px;
+}
+
+.calculator{
+	margin: 0 auto; 
+}
