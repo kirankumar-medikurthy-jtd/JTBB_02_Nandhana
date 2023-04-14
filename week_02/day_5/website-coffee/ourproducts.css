@@ -1,0 +1,138 @@
+nav{
+	width:100%;
+}
+
+nav a{
+	color:black;
+        text-decoration: none;
+       
+}
+
+.nav-items{
+	padding:25px 0px;
+	
+	
+}
+
+.nav-items:hover{
+	text-decoration: underline;
+}
+
+.navbar{
+	display:flex;
+	justify-content:center;
+	gap:20px;
+	cursor:pointer;
+	hover
+	
+}
+.coffee{
+	margin-right:90px;
+}
+.our_products{
+	text-align:center;
+	margin-top:140px;
+}
+.our_products p{
+	font-size:20px;
+}
+.buttons input{
+	background-color:transparent;
+	border:1px solid brown;
+	padding:20px 0px;
+	cursor:pointer;
+	text-align:center;
+	width:120px;
+}
+.read div p{
+	font-size:20px;
+}
+.read div img{
+	width:100%;
+	height:400px;
+}
+.read div{
+	width:35%;
+	margin-left:45px;
+}
+.read{
+	display:flex;
+	justify-content:center;
+	margin-top:180px;
+}
+.read div button{
+	padding:20px 40px;
+	margin-top:20px;
+	background-color:black;
+	color:white;
+	cursor:pointer;
+}
+.images div img{
+	height:400px;
+	width:100%;
+}
+.images div{
+	width:24%;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+.images{
+	display:flex;
+	justify-content:center;
+	margin-top:50px;
+	text-align:center;
+}
+
+.footer{
+	display:flex;
+	justify-content:center;
+	margin-top:110px;
+}
+.footer div{
+	margin-left:60px;
+	
+}
+.signup{
+	background-color:black;
+	width:87%;
+	height:350px;
+	margin-top:150px;
+	margin-left:120px;
+	border:1px solid black;
+}
+
+.Form,.signup{
+	color:white;
+	text-align:center;
+	
+}
+.flex{
+	margin-top:90px;
+}
+#sign{
+	margin-top:30px;
+}
+#sign p{
+	font-size:20px;
+}
+.Form,.signup{
+	color:white;
+	text-align:center;
+	
+}
+.Form{
+	border:1px solid #C0C0C0;
+	background-color:transparent;
+	height:50px;
+	width:400px;
+}
+label{
+	border:2px solid white;
+	padding:15px 20px;
+	background-color:white;
+	color:black;
+}
+a{
+	text-decoration:none;
+}

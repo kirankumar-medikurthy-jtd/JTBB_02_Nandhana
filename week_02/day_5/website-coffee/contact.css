@@ -1,0 +1,182 @@
+nav{
+	width:100%;
+}
+
+nav a{
+	color:black;
+        text-decoration: none;
+       
+}
+.coffee{
+	margin-right:90px;
+}
+
+.nav-items{
+	padding:25px 0px;
+	
+	
+}
+
+.nav-items:hover{
+	text-decoration: underline;
+}
+
+.navbar{
+	display:flex;
+	justify-content:center;
+	gap:20px;
+	cursor:pointer;
+	hover
+	
+}
+.pixel{
+	margin-top:120px;
+	font-size:20px;
+}
+.offices{
+	margin-top:70px;
+	text-align:center;
+}
+.img-txt{
+	border:1px solid #f5f5f5;
+	height:600px;
+	width:100%;
+	background-color:#f5f5f5;
+	text-align:center;
+	margin-top:50px;
+	justify-content:center;
+}
+.img-txt p{
+	line-height:30px;
+}
+.images div{
+	margin-left:20px;
+}
+.images{
+	display:flex;
+	justify-content:center;
+	margin-top:0px;
+}	
+.images img{
+	height:200px;
+	width:430px;
+	margin-top:120px;
+}
+.txt-img{
+	
+	justify-content:center;
+	margin-left: auto;
+  	margin-right: auto;
+}
+.contact-forms{
+	font-size:20px;
+	
+	
+}
+.nandu-form{
+	line-height:30px;
+	border:1px solid black;
+	margin-top:600px;
+	justify-content:center;
+	width:800px;
+	margin-left:550px;
+	
+	
+}
+.text {
+	height:50px;
+	width:450px;
+	border:1px solid #C0C0C0;
+	line-height:40px;
+}
+.label-1{
+	padding:15px 20px;
+	
+}
+button{
+	height:50px;
+	width:200px;
+	background-color:black;
+	color:white;
+}
+
+
+
+
+
+.footer{
+	display:flex;
+	justify-content:center;
+	margin-top:110px;
+}
+.footer div{
+	margin-left:60px;
+	
+}
+.signup{
+	background-color:black;
+	width:87%;
+	height:350px;
+	margin-top:150px;
+	margin-left:120px;
+	border:1px solid black;
+}
+
+.Form,.signup{
+	color:white;
+	text-align:center;
+	
+}
+.flex{
+	margin-top:90px;
+}
+#sign{
+	margin-top:30px;
+}
+#sign p{
+	font-size:20px;
+}
+.Form,.signup{
+	color:white;
+	text-align:center;
+	
+}
+.Form{
+	border:1px solid #C0C0C0;
+	background-color:transparent;
+	height:50px;
+	width:400px;
+}
+label{
+	border:2px solid white;
+	padding:15px 20px;
+	background-color:white;
+	color:black;
+}
+.coffee{
+	margin-right:90px;
+}
+.directory{
+	
+	
+	text-align:center;
+	margin-top:90px;
+}
+.direct{
+	display:flex;
+	justify-content:center;
+}
+.align{
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+

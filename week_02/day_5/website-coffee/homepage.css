@@ -1,0 +1,247 @@
+nav{
+	width:100%;
+}
+
+nav a{
+	color:black;
+        text-decoration: none;
+       
+}
+
+.nav-items{
+	padding:25px 0px;
+	
+	
+}
+
+.nav-items:hover{
+	text-decoration: underline;
+}
+
+.navbar{
+	display:flex;
+	justify-content:center;
+	gap:20px;
+	cursor:pointer;
+	hover
+	
+}
+.coffee{
+	margin-right:90px;
+}
+.coffee-mugs{
+	background-image:url('backgroundimg.jpg');
+	width:79%;
+  	height:550px;
+  	margin-top:20px;
+  	margin-left:180px;
+  	
+}
+.text-on-img{
+ 	margin-top:10px;
+	position:relative;
+	text-align:center;
+	color:white;
+	margin-bottom:20px;
+}
+
+a{
+	text-decoration:none;
+}
+.coffee-mugs button{
+	height:50px;
+	width:200px;
+	background-color:white;
+	color:black;
+	
+}
+
+
+.text{
+	text-align:center;
+	margin-top:150px;
+}
+
+.text p{
+	line-height:30px;
+	font-size:20px;
+}
+.feature-mugs{
+	text-align:center;
+}
+.feature img{
+	width:88%;
+	margin-top:90px;
+	height:500px;
+}
+.feature{
+	display:flex;
+	text-align:center;
+	justify-content:center;
+	margin-top:10px;
+	font-size:18px;
+	cursor:pointer;
+}
+
+.More-Products{
+	text-align:center;
+
+}
+.More-Products{
+	font-size:20px;
+}
+.product{
+	display:flex;
+	justify-content:center;
+	font-size:18px;
+}
+.product img{
+	height:300px;
+	margin-left:20px;
+}
+.display{
+	display:flex;
+}
+.paper img{
+	width:100%;
+	height:300px;
+}
+.img2 img{
+	width:100%;
+	height:145px;
+	margin-left:22px;
+	margin-top:10px;
+	
+}
+.img1 img{
+	width:100%;
+	height:145px;
+	margin-left:22px;
+	
+}
+.premium{
+	margin-left:70px;
+}
+.premium button{
+ 	margin-top:10px;
+	height:60px;
+	width:150px;
+	background-color:black;
+	color:white;
+	text-decoration:none;
+	border:1px solid blue;
+	
+}
+.display{
+	justify-content:center;
+}
+.coffee-magazine p{
+	
+	font-size:20px;
+}
+.life-storees img{
+	width:100%;
+	height:300px;
+	line-height:20px;
+}
+.life-storees p,.life-storees h3{
+	line-height:30px;
+}
+.life-stories div{
+	width:22%;
+	margin-left:15px;
+}
+.life-stories{
+	display:flex;
+	justify-content:center;
+	
+}
+.life-stories{
+	margin-top:90px;
+}
+.para {
+	font-size:20px;
+}
+.premium h1{
+	font-size:40px;
+}
+.center p{
+	text-align:center;
+}
+.buy{
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	display:flex;
+	margin-left:380px;
+	margin-top:110px;
+}
+.footer div{
+	margin-left:60px;
+	
+}
+.signup{
+	background-color:black;
+	width:87%;
+	height:350px;
+	margin-top:150px;
+	margin-left:120px;
+	border:1px solid black;
+}
+
+.Form,.signup{
+	color:white;
+	text-align:center;
+	
+}
+.flex{
+	margin-top:90px;
+}
+#sign{
+	margin-top:30px;
+}
+#sign p{
+	font-size:20px;
+}
+.Form,.signup{
+	color:white;
+	text-align:center;
+	
+}
+.Form{
+	border:1px solid #C0C0C0;
+	background-color:transparent;
+	height:50px;
+	width:400px;
+}
+label{
+	border:2px solid white;
+	padding:15px 20px;
+	background-color:white;
+	color:black;
+}
+
+

@@ -1,0 +1,161 @@
+nav{
+	width:100%;
+}
+
+nav a{
+	color:black;
+        text-decoration: none;
+       
+}
+
+.nav-items{
+	padding:25px 0px;
+	
+	
+}
+
+.nav-items:hover{
+	text-decoration: underline;
+}
+
+.navbar{
+	display:flex;
+	justify-content:center;
+	gap:20px;
+	cursor:pointer;
+	hover
+	
+}
+.coffee{
+	margin-right:90px;
+}
+.hr-tag{
+	display:flex;
+	width:70%;
+	
+}
+.hr-tag div{
+	margin-left:520px;
+}
+.blog-text{
+	margin-top:90px;
+	font-size:20px;
+	
+}
+.our-blog{	
+	background-color:#f5f5f5 ;
+	width:89%;
+	margin-left:110px;
+	text-align:center;
+	height:600px;
+	
+}
+
+.featured-posts{
+	width:60%;
+	margin-left:360px;
+}
+.post{
+	display:flex;
+}
+.post div{
+	margin-left:20px;
+}
+.posts img{
+	width:100%;
+	height:380px;
+}
+.posts{
+	font-size:20px;
+}
+.para {
+	text-align:center;
+}
+.latest{
+	width:60%;
+	font-size:20px;
+	margin-left:350px;
+	display:flex;
+}
+.latest-post img{
+	width:100%;
+	height:200px;
+}
+.latest-post div{
+	font-size:20px;
+	margin-left:30px;
+	margin-top:10px;
+}
+.latest-post{
+	display:flex;
+}
+
+.footer{
+	display:flex;
+	justify-content:center;
+	margin-top:110px;
+}
+.footer div{
+	margin-left:60px;
+	
+}
+.signup{
+	background-color:black;
+	width:87%;
+	height:350px;
+	margin-top:150px;
+	margin-left:120px;
+	border:1px solid black;
+}
+
+.Form,.signup{
+	color:white;
+	text-align:center;
+	
+}
+.flex{
+	margin-top:90px;
+}
+#sign{
+	margin-top:30px;
+}
+#sign p{
+	font-size:20px;
+}
+.Form,.signup{
+	color:white;
+	text-align:center;
+	
+}
+.Form{
+	border:1px solid #C0C0C0;
+	background-color:transparent;
+	height:50px;
+	width:400px;
+}
+label{
+	border:2px solid white;
+	padding:15px 20px;
+	background-color:white;
+	color:black;
+}
+
+.about-us{
+	margin-left:20px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
