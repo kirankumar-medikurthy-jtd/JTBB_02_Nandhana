@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>cardsplay</title>
+		<style>
+			#headding{
+				text-align: center;
+				font-size: 30px;
+				color: orange;
+			}
+			
+			button{
+				background-color: pink;
+				border: 1px solid red;
+				border-radius: 7px;
+				padding: 5px 15px;
+				color: white
+			}
+			#cards{
+				display: flex;
+				width : 1000px;
+				flex-wrap : wrap;
+			}
+			
+			#cards > div{
+				background-color: blue;
+				color: white;
+				padding: 60px;
+				margin: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="headding">Cards play</div>
+		<div id="button">
+			<button onClick="cardsDisplay()">Click Me</button>
+		</div>
+		<div id="cards">
+		
+		</div>
+	</body>
+	<script>
+		function cardsDisplay(){
+				let button = document.getElementById("button");
+				button.innerHTML = ""
+				let cards = document.getElementById("cards");
+				for(let i=1; i<=60; i++){
+					let card = createCard(i);
+					cards.appendChild(card);
+				}
+				
+			}
+			function createCard(cardNumber) {
+				let card = document.createElement("div");
+				card.innerHTML = cardNumber;
+				card.setAttribute("onClick", `displayNumber(${cardNumber})`)
+				return card;
+			}
+			function displayNumber (number){
+				let headding = document.getElementById("headding");
+				headding.innerHTML = `Cards play : ${number}`;
+			}
+			
+		</script>
+	</script>
+</html>
