@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login From Demo</title>
+    <style type="text/css">
+    
+        .heading {
+            color : brown;
+            margin : 10px 0px;
+        }
+        
+        .inputFrom{
+          width:  200px;
+          display: flex;
+          flex-direction: column;
+        }
+
+        input {
+            margin : 5px 0px;
+            border-radius: 2px;
+        }
+
+        .submitBtn {
+            background-color : brown;
+            color : white;
+        }
+
+        .displayDetails {
+            /* width : 580px;
+            overflow: scroll;
+            background-color :gold;
+            display: flex;
+            flex-wrap: wrap; */
+        }
+    </style>
+</head>
+<body>
+    <div id="FromLayout">
+        <div class="heading"> Enter the Details</div>
+        <div class="inputFrom">
+            <input class="name" type="text" placeholder="Enter your full name"/>
+            <input class="mobilenumber" type="number" placeholder="Enter your mobile number" />
+            <input class="submitBtn" type="submit" value="create"/>
+        </div>
+        <div class="displayDetails">
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    var nameTag = document.querySelector(".name");
+    var mobileTag = document.querySelector(".mobilenumber");
+    var submitBtn = document.querySelector(".submitBtn");
+    submitBtn.onclick = function(){
+        let usersTag = document.createElement("div");
+        let NameTag = document.createElement("div");
+        NameTag.textContent = "Name : " + (nameTag.value);
+        NameTag.style.margin = "10px 10px"
+        let mobilenumberTag = document.createElement("div");
+        mobilenumberTag.textContent = "Phone Number : " + (mobileTag.value);
+        mobilenumberTag.style.margin = "10px 10px"
+        usersTag.append(NameTag,mobilenumberTag);
+        //Applying Styles to the user Tag div
+        usersTag.style.height = "60px";
+        usersTag.style.backgroundColor = "#E6E6FA";
+        usersTag.style.margin = "10px 10px";
+        //selecting userdetails tag
+        let userDetailTag = document.querySelector(".displayDetails");
+        userDetailTag.style.width = "581px";
+        userDetailTag.style.display = "flex";
+        userDetailTag.style.overflow = "scroll";
+        userDetailTag.style.flexWrap = "wrap";
+        userDetailTag.style.backgroundColor ="gold";
+        userDetailTag.append(usersTag);
+        // // selecting display display details tag and appling flex property
+        // userDetailTag.style.display = "flex";
+    }
+</script>
+</html>
