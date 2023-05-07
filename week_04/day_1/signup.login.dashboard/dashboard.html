@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>dashboard page</title>
+		<style>
+			.log{
+				justify-content:right;
+				/*width:10%;*/
+				font-size:30px;
+				background-color:black;
+				color:white;
+				text-align:center;
+				border-radius:5px;
+				margin-top:20px;
+				cursor:pointer;
+			}
+			.display{
+				text-align:center;
+				background-color:black;
+				color:white;
+				border-radius:5px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="log" onClick="logout()" >Logout</div>
+		<div class="display"></div>
+	</body>
+	<script>
+		let display=document.querySelector(".display");
+		var result=JSON.parse(localStorage.getItem("presentData"));
+		if(result){
+			let user = document.createElement("div");
+			user.textContent = "User : " + result.user;
+			let name = document.createElement("div");
+			name.textContent = "name : " + result.name;
+			let mail = document.createElement("div");
+			mail.textContent = "mail : " + result.mail;
+			let number = document.createElement("div");
+			number.textContent = "number : " + result.number;
+			display.append(user,name,mail,number);
+			console.log(display);
+		
+		function logout(){
+			localStorage.removeItem("presentData");
+			window.location.href="login.html"
+		}}
+		else{
+			location.href="login.html"
+		}
+	</script>
+</html>

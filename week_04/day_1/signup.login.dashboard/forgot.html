@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<title>Forgot Password</title>
+		<style>
+			.layout{
+				margin-left:600px;
+				border:1px solid red;
+				border-radius:5px;
+				width:25%;
+				margin-top:100px;
+			}
+			h1{
+				text-align:center;
+			}
+			h2{
+				margin-left:40px;
+			}
+			input{
+				padding:10px 60px;
+				margin-left:40px;
+				border-radius:5px;
+			}
+			button{
+				padding:10px 40px;
+				background-color:black;
+				color:white;
+				margin-top:40px;
+				margin-left:110px;
+				font-size:20px;
+				border-radius:5px;
+			}
+			a{
+				text-decoration:none;
+				margin-top:40px;
+				color:black;
+			}
+			.underline:hover{
+				text-decoration: underline;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="layout">
+			<h1>Change Your Password</h1>
+			<h2>Username</h2>
+			<input type="text" class="username" placeholder="username"/>
+			<h2>New Password</h2>
+			<input class="newpassword" class="password" placeholder="New Password"/>
+			<h2>Confirm Password</h2>
+			<input class="confirmpassword" class="password" placeholder="Confirm Password"/>
+			<button class="button">Change</button>
+			<p><a class="underline" href="login.html">Login Page</a></p>
+		</div>
+	</body>
+	<script>
+		var result=JSON.parse(localStorage.getItem("data")) || [];
+		
+		var button=document.querySelector(".button");
+		button.onclick=function(){
+		
+			var username=document.querySelector(".username").value;
+			var newpassword=document.querySelector(".newpassword").value;
+			var confirmpassword=document.querySelector(".confirmpassword").value;
+			
+			
+			if(newpassword === confirmpassword){
+			
+				let dub = []
+				for(let i=0; i<result.length; i++){
+					if(username === result[i].user){
+					console.log(result[i])
+						if(newpassword !== result[i].password){
+							console.log(username,newpassword,confirmpassword);
+							let temp ={
+								...result[i],
+								password: newpassword
+							}		
+							dub.push(temp)
+						}
+					}
+					else{
+						dub.push(result[i])
+					}
+				}
+				localStorage.setItem("data", JSON.stringify(dub))
+				alert("changed!")
+				window.location = "login.html";
+				return
+			}
+			else{
+			
+				alert("password not matching")
+			}
+			
+			
+			
+			//alert("Password Changed Successfully");
+			
+			
+			//localStorage.setItem("data",JSON.stringify());
+			
+			//window.location = "login.html";
+		}
+			
+	</script>
+</html>

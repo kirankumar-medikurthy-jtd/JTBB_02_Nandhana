@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<title>login page</title>
+	<style>
+		body{
+			background-image: url('https://getwallpapers.com/wallpaper/full/6/a/9/1463445-popular-flowers-wallpapers-1920x1200.jpg');
+		}
+		input{
+			padding:15px 60px;
+			color:red;
+			text-align:center;
+			justify-content:center;
+			margin-left:70px;
+			
+			
+		}
+		
+		button{
+			background-color:black;
+			color:white;
+			/*padding:10px 10px;*/
+			height:50px;
+			width:100px;
+			margin-top:60px;
+			margin-left:170px;
+			border-radius:5px;
+
+		}
+		.main{
+			margin-left:550px;
+   			background-color:#039BE5;
+   			margin: auto;
+        		width: 30%;
+        		margin-top: 90px;
+        		height: 550px;
+        		border-radius: 10px;
+		}
+		h2{
+   			margin-left:80px;
+   			margin-top:20px;
+   		}
+   		h1{
+   			text-align:center;
+   		}
+		p{		
+			margin-top:50px;
+			margin-left:20px;
+			color:white;
+		}
+		.display{
+			display:flex;
+			font-size:17px;
+		}
+		.left{
+			margin-left:170px;
+		}
+		a{
+			color:white;
+			text-decoration:none;
+		}
+		a:hover{
+				text-decoration:underline;
+			}
+	</style>
+	</head>
+	<body>
+		
+		<div class="main">
+			<h1>Login</h1>
+			<h2>User Name</h2>
+			<input class="name" type="text" placeholder="Enter Your Name" />
+			<h2>Password</h2>
+			<input class="password" type="password" placeholder="Enter Your Password" />
+			<button class="button">Login</button>
+			<div class="display">
+				<p><a href="forgot.html">Forgot Password</a></p>
+				<p class="left">if not signup?<a href="signup.html">signup</a></p>
+			</div>
+		</div>
+		
+
+	</body>
+	<script>
+		var result=JSON.parse(localStorage.getItem("data")) || [];
+		
+		var button=document.querySelector(".button");
+		button.onclick=function(){
+			var name=document.querySelector(".name").value;
+			var password=document.querySelector(".password").value;
+			for(let i=0; i<result.length; i++){
+				if(result[i].user === name && result[i].password === password){
+					alert("login successful");
+					localStorage.setItem("presentData",JSON.stringify(result[i]))
+					window.location.href = "dashboard.html"
+					return
+				}
+			}
+			alert("login failed");
+		}
+
+	</script>
+</html>

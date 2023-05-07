@@ -1,0 +1,108 @@
+<html>
+	<head>
+		<title>signup</title>
+	</head>
+	<style>
+		input{
+			padding:15px 60px;
+			color:red;
+			text-align:center;
+			justify-content:center;
+			margin-left:100px;
+			
+		}
+		button{
+			background-color:black;
+			color:white;
+			padding:10px 10px;
+			margin-top:40px;
+			margin-left:180px;
+			border-radius:5px;
+		}
+		 body{
+        		background-image: url('https://getwallpapers.com/wallpaper/full/e/d/f/477656.jpg');
+   		}
+   		.middle{
+   			margin-left:550px;
+   			background-color:#E91E63;
+   			margin: auto;
+        		width: 30%;
+        		margin-top: 50px;
+        		height: 750px;
+        		border-radius: 10px;
+
+   			
+   		}
+   		h2{
+   			margin-left:100px;
+   			margin-top:20px;
+   		}
+   		h1{
+   			text-align:center;
+   		}
+   		a{
+   			color:white;
+   			margin-left:400px;
+   			text-decoration:none;
+   			font-size:25px;
+   		}
+   		a:hover{
+				text-decoration:underline;
+			}
+	</style>
+	<body>
+		<div class="middle">
+		<h1>Signup</h1>
+		<div>
+			<h2>Name</h2>
+			<input class="name"type="text"placeholder="Enter Your Name" />
+			<h2>User Name</h2>
+			<input type="text" class="user" placeholder="Enter User Name"/>
+			<h2>Email</h2>
+			<input class="mail" type="text"placeholder="Enter Your Email"/>
+			<h2>Password</h2>
+			<input class="password"type="password"placeholder="Enter Your Password" />
+			<h2>Number</h2>
+			<input class="number"type="number"placeholder="Enter Your Number"/><br>
+			<button class="button" >Create Account</button>
+			<p><a href="login.html">login</a></p>
+		</div>
+		</div>
+	</body>
+	<script>
+		//var result=JSON.parse(localStorage.getItem("data")) || [];
+		
+		var data=JSON.parse(localStorage.getItem("presentData"));
+		if(data){
+			location.href="dashboard.html"
+		}
+		else{
+		var button=document.querySelector(".button");
+		var result=JSON.parse(localStorage.getItem("data")) || [];
+		button.onclick=function(){
+			var name=document.querySelector(".name").value;
+			var user=document.querySelector(".user").value;
+			var mail=document.querySelector(".mail").value;
+			var password=document.querySelector(".password").value;
+			var number=document.querySelector(".number").value;
+			
+			for(let i=0; i<result.length; i++){
+
+				if(result[i].user === user){
+					alert("User already exist");
+					return;
+				}
+			}
+			console.log(name,user,mail,password,number);
+			
+	
+			localStorage.setItem("data",JSON.stringify([...result,{name,user,mail,password,number}]));
+			console.log(localStorage.getItem("data"));
+			
+			alert("Account Created Successfully");
+			window.location.href = "login.html"
+		
+		}
+		}
+	</script>
+</html>
