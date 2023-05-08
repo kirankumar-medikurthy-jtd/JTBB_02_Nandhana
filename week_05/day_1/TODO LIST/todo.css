@@ -1,0 +1,79 @@
+body{
+    background-image: url('http://3.bp.blogspot.com/-TSeN-286uoU/T6yq2YXkToI/AAAAAAAAAIQ/L-zOX-VXtjE/s1600/wallpaper-spring-fall-nature-backgrounds-for-desktop-laptop.jpg');
+    
+}
+
+.navbar{
+    padding:10px 10px;
+    background-color:black;
+    color: white;
+    /* position: fixed; */
+}
+h1{
+    margin-left: 40px;
+}
+h2{
+    margin-left: 80px;
+    color: greenyellow;
+}
+input{
+    padding:10px 50px;
+    margin-left: 80px;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    font-weight: bolder;
+}
+.adding-details{
+    border: 1px solid white;
+    margin-top: 50px;
+    width: 30%;
+    border-radius: 7px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.btn{
+    padding:15px 45px;
+    margin-top: 20px;
+    margin-left: 165px;
+    margin-bottom: 20px;
+    background-color: greenyellow;
+    border: greenyellow;
+    border-radius: 7px;
+}
+.display{
+    width: 40%;
+    color:greenyellow;
+    margin-top: 20px;
+    margin-left: 600px;
+    transform: translateY(-417px);
+}
+table{
+    margin: auto;
+    border:1px solid white;
+    padding:10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+th{
+    border:1px solid greenyellow;
+    margin-left: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px 10px;
+}
+td{
+    border:1px solid white;
+    margin-left: 50px;
+    /* color: yellow; */
+    color:black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+.deleting{
+  height: 50px;
+}
