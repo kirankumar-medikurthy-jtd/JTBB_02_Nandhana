@@ -1,0 +1,40 @@
+.nav{
+    border:1px solid black;
+    background-color:black;
+    color:white;
+    display:flex;
+    /* justify-content: space-evenly; */
+}
+
+.center{
+    text-align: center;
+    font-size: large;
+}
+.lib{
+    margin-left: 40px;
+}
+.left{
+    margin-left: 700px;
+    
+}
+.right{
+    margin-left: 150px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    text-decoration: underline;
+}
+.image{
+    width:50px;
+    height:50px;
+    margin-left: 130px;
+    margin-top: 12px;
+}
+.sign{
+    margin-left: 140px;
+    color: white;
+    cursor: pointer;
+}
