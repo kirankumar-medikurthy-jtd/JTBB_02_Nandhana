@@ -1,0 +1,43 @@
+
+.navbar{
+    background-color: black;
+    color: white;
+    padding:2px;
+    /* height: 60px; */
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    margin-top: 50px;
+    border: 2px solid cadetblue;
+    margin-left: 5px;
+}
+.display{
+    /* display: flex; */
+    display: flex;
+    margin-left: 500px;
+}
+.search{
+    margin-top: 50px;
+    height: 40px;
+    width: 400px;
+    border:2px solid cadetblue;
+}
+.movie{
+    text-align: center;
+}
+.card{
+    border: 1px solid brown;
+    background-color: rgb(205, 222, 237);
+    color: brown;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: 250px;
+    
+}
+.displayCosmic{
+    display: flex;
+    flex-wrap: wrap;
+}
