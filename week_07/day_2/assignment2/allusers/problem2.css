@@ -1,0 +1,29 @@
+.layout{
+    border:1px solid black;
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: aqua;
+}
+.layout:hover{
+    background-color: orange;
+    color: white;
+}
+input{
+    padding:10px 50px;
+    margin-left: 50px;
+}
+.button{
+    padding: 10px 30px;
+    margin-top: 40px;
+    margin-left: 140px;
+    margin-bottom: 20px;
+    color:palevioletred;
+}
+h2{
+    margin-left: 50px;
+    color:palevioletred;
+}
+h2:hover{
+    color:white;
+}
